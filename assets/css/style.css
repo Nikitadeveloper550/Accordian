@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.section-1 {
+    flex-grow: 1;
+    background-color: rgba(246, 227, 0);
+    font-family: "Poppins";
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e") !important
+
+}
+
+.accordion-body {
+    background: rgba(255, 240, 63, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+}
+
+.accordion-button {
+    background-color: rgba(255, 240, 63, 1) !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height: 27px !important;
+    box-shadow: none !important;
+    color: black !important;
+}
+
+.accordion-item{
+    border: none !important;
+}
+.container {
+    max-width: 992px !important;
+}
+
+.accordion-button:not(.collapsed)::after{
+    font-weight: 600 !important;
+}
