@@ -4,8 +4,6 @@
     flex-grow: 1;
     background-color: rgba(246, 227, 0);
     font-family: "Poppins";
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e") !important
-
 }
 
 .accordion-body {
@@ -31,6 +29,8 @@
     max-width: 992px !important;
 }
 
-.accordion-button:not(.collapsed)::after{
-    font-weight: 600 !important;
+.accordion-button::after
+{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e") !important
+
 }
