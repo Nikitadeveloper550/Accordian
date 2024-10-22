@@ -8,6 +8,7 @@
     font-family: "Poppins";
 }
 
+
 .section-1 {
 
     .accordion-body {
@@ -33,31 +34,72 @@
     .container {
         max-width: 992px !important;
     }
+
 }
 
 /* section-2 */
 
-.section-2{
+.section-2 {
     background-image: url(../img/sec-2-bg-img.png);
+    font-family: "Poppins";
+
 }
 
-.section-2{
-    .accordion-body {
+.section-2 {
+    .Question {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 27px;
+        color: rgba(255, 255, 255, 1);
+        margin-right: 2px;
+    }
+
+    .outer-para {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        color: rgba(255, 255, 255, 1);
+        /* margin-bottom: 10px; */
+        padding-left: 12px;
+    }
+
+    .inner-para {
         font-size: 18px;
         font-weight: 400;
-        line-height: 32.4px;
+        line-height: 27px;
+        color: rgba(182, 184, 184);
+        padding-left: 10px;
     }
 
     .accordion-button {
-       
+        background-color: rgba(35, 35, 35) !important;
+        backdrop-filter: blur(40px) !important;
+        box-shadow: none !important;
     }
 
     .accordion-item {
-        border: none !important;
+        border: 2px solid rgba(63, 66, 68) !important;
+        background-color: rgba(35, 35, 35);
+        box-shadow: none;
     }
 
     .container {
         max-width: 1038px !important;
     }
+
+    .header {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 72px;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .text-blue {
+        color: rgba(69, 139, 232);
+    }
+
+    .accordion-button::after{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e") !important;
+}
 
 }
